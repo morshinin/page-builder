@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+}
+
+header {
+  padding: 5px;
+}
+
+.dashboard {
+  max-width: 300px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+  padding: 10px;
+}
+
+.preview {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  align-self: flex-start;
+}
+
+label {
+  font-weight: bold;
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}

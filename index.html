@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        Конструктор сайтов
+      </h1>
+    </header>
+    <main>
+      <div class="dashboard">
+        <div class="form__group">
+          <label for="titleInput">Заголовок</label>
+          <input
+            type="text"
+            id="titleInput"
+            placeholder="Например, 'Моя первая запись'"
+          />
+          <button id="titleInputBtn">Добавить</button>
+        </div>
+        <div class="form__group">
+          <label for="headingInput">Подзаголовок</label>
+          <input
+            type="text"
+            id="headingInput"
+            placeholder="Например, 'Мой подзаголовок'"
+          />
+          <button id="headingInputBtn">Добавить</button>
+        </div>
+        <div class="form__group">
+          <label for="textInput">Блок текста</label>
+          <textarea name="" cols="30" rows="10" id="textInput"> </textarea>
+          <button id="textInputBtn">Добавить</button>
+        </div>
+        <div class="form__group">
+          <label for="imgInput">URL картинки</label>
+          <input
+            type="text"
+            id="imgInput"
+            placeholder="Например, https://picsum.photos/200/300"
+          />
+          <button id="imgInputBtn">Добавить картинку</button>
+        </div>
+        <div class="form__group">
+          <label for="profile_pic">Добавить картинку с компьютера</label>
+          <input
+            type="file"
+            id="imgFileInput"
+            name="profile_pic"
+            accept=".jpg, .jpeg, .png"
+          />
+          <button id="imgFileBtn">Добавить картинку из файла</button>
+        </div>
+        <div class="form__group">
+          <button id="addInput">Добавить инпут</button>
+        </div>
+      </div>
+      <div class="preview">
+        <h2 class="preview__title">Заголовок</h2>
+        <div class="preview__body"></div>
+      </div>
+    </main>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
